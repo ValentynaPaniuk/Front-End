@@ -1,0 +1,337 @@
+/******Start main*******/
+.main .price label {
+    font-family: Font_Regular;
+    font-size: 22px;
+    color: $color_text_btn_white;
+}
+
+.main .price select {
+    font-family: Font_Regular;
+    font-size: 18px;
+    color: $color_text;
+    width: 100%;
+    height: 30px;
+}
+
+.main .btn-read_more {
+    background-color: $color_text_btn_colorized;
+    color: $color_text_btn_white;
+    display: inline-block;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 16px;
+}
+
+.main .btn-read_more:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+}
+.main .price_bg {
+    background-color: $color_main_2;
+    background-image: url("../../../img/bg_wide.png");
+  }
+  .main .price h2 {
+    font-family: Font_Bold;
+    color: $color_text_btn_colorized;
+    text-transform: uppercase;
+    padding: 12px 0 12px 18px;
+    background-color: $color_bg_btn_hover;
+    background-image: url("../img/Arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 65% center;
+  }
+  .main .price .discount {
+    display: inline-block;
+    color: $color_text_btn_main;
+    font-size: 30pt;
+  }
+  
+  .main .price .discount span {
+    text-transform: none;
+    font-family: Font_Regular;
+    font-weight: 100;
+  }
+  
+  .main .price .procent {
+    font-size: 25pt;
+  }
+  
+  .main .price .order {
+    color: $color_text_btn_colorized;
+    font-size: 15pt;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .main .price .btn-order_now {
+    background-color: $color_text_btn_main;
+    color: $color_text_btn_white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 12px 28.5%;
+  }
+  
+  .main .price .btn-order_now::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_text_btn_main;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 30px;
+    right: 99px;
+  }
+  
+  .main .price .total_price {
+    font-family: Font_Regular;
+    font-size: 22px;
+    color: $color_text_btn_white;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  .main .price .price_ {
+    font-size: 30pt;
+  }
+  .main .price .usd {
+    font-size: 25pt;
+  }
+  
+  .main .price {
+    padding: 20px 0;
+  }
+  
+  .main .price_bg .taill::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_bg_btn_hover;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 52px;
+    right: 18px;
+  }
+  
+  .main .price_bg_white {
+    background-color: $color_text_btn_white;
+  }
+  
+  .main .price_bg_white h2 {
+    text-transform: uppercase;
+    background-color: $color_bg_btn_hover;
+    text-align: center;
+    padding: 8px;
+    color: $color_main_1
+  }
+  
+  .price_bg_white .taill::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_bg_btn_hover;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 30px;
+    right: 56px;
+  }
+  
+  .main .price_bg_white h4 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .main .price_bg_white p {
+    text-align: justify;
+  }
+  
+  .main .price .btn-read_more {
+    background-color: $color_main_2;
+    color: $color_text_btn_white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 26px;
+    margin: 20px 0;
+    padding: 12px 28.5%;
+  }
+  
+  .main .price .btn-read_more:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+  }
+  
+  .test {
+    text-align: center;
+  }
+  
+  .picture1 {
+    background-image: url("../img/Element1.svg");
+  }
+  
+  .picture2 {
+    background-image: url("../img/Element2.svg");
+  }
+  .picture3 {
+    background-image: url("../img/Element3.svg");
+  }
+  .picture4 {
+    background-image: url("../img/Element4.svg");
+  }
+  
+  .work_item:hover .picture1 {
+    background-image: url("../img/Element1_dark.svg");
+  }
+  
+  .picture {
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+  }
+  
+  .how_it_works {
+    padding-bottom: 20px;
+    background-color: $color_main_1;
+    background-image: url("../img/Bg2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .how_it_works h2 {
+    text-align: center;
+    background-color: $color_bg_btn_hover;
+    padding: 15px 0;
+    color: $color_main_1
+  
+  }
+  .how_it_works h2::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_bg_btn_hover;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 35px;
+    right: 196px;
+  }
+  
+  .main .how_it_works .text {
+    text-align: center;
+    color: $color_text_btn_white;
+  }
+  .how_it_works .text_wrapper p.text {
+    text-align: left;
+    color: $color_text_btn_white;
+    border-bottom: 3px solid $color_text_btn_white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .how_it_works .round {
+    text-align: center;
+    display: inline-block;
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-family: Font_Regular;
+    font-size: 25px;
+  }
+  
+  .main .how_it_works2 {
+    padding-bottom: 20px;
+    background-color: $color_text_btn_white;
+    background-position: center center;
+  }
+  
+  .main .how_it_works2 h2 {
+    text-align: center;
+    background-color: $color_bg_btn_hover;
+    padding: 15px 0;
+    color: $color_main_1
+  
+  }
+  
+  .main .how_it_works2 h2::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_bg_btn_hover;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 30px;
+    right: 463px;
+  }
+  
+  .main .how_it_works2 .text_wrapper h4.text {
+    text-align: left center;
+    color: $color_main_1;
+    border-bottom: 3px solid $color_text_btn_white;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+  .main .how_it_works2 .text_wrapper h4.text:hover {
+    text-align: left;
+    background-color: $color_main_2;
+    color: $color_text_btn_white;
+    border-bottom: 3px solid $color_text_btn_white;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .main .how_it_works2 .text_wrapper h4.text:hover::after {
+    content: "";
+    display: inline-block;
+    border: 25px solid transparent;
+    border-left: 20px solid $color_main_2;
+    position: relative;
+    left: 55px;
+  }
+  
+  .main .how_it_works2 .text {
+    text-align: center;
+    color: $color_main_1;
+  }
+  
+  .main .how_it_works2 .number {
+    text-align: center;
+    color: $color_bg_btn_hover;
+    width: 30px;
+    height: 30px;
+    font-family: Font_Regular;
+    font-size: 35px;
+  }
+  
+  .main .how_it_works3 .btn-order_now {
+    background-color: $color_text_btn_main;
+    color: $color_text_btn_white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 26px;
+    margin: 10px 0;
+    padding: 12px 10%;
+    text-align: center;
+  }
+  
+  .main .how_it_works3 .center {
+    text-align: center;
+  }
+  
+  .how_it_works3 .center::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_text_btn_main;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 33px;
+    left: 24px;
+  }
+  
