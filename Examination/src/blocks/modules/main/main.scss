@@ -1,0 +1,116 @@
+/******Start main*******/
+.main .our_advantages{
+    background: $color_text_btn_white;
+   margin-left: 80px;
+    
+    
+}
+
+.main .our_advantages h2{
+   color:$color_blue;
+   display: inline-block;
+  margin-left:35% ;
+   
+} 
+
+.main .our_block{
+    margin:10px;
+    background: $color_main_1;
+    padding:20px ;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.main .our_block span
+{
+    color: $color_text_grey;
+}
+.main h1{
+    color: $color_blue;
+    text-align: center;
+    
+}
+.main .essayservice h1{
+    color:$color_blue;
+    display: inline-block;
+    margin-left:5% ;
+    text-transform: uppercase;
+}
+
+.main .column{
+    padding-bottom:20px; /*отступ снизу*/
+    width:80%; /*указываем общую ширину блока с колонками*/
+    text-align:justify; /*выравнивание текста внутри колонок*/
+    column-count: 2; /*количество колонок, на которое хотим разбить текст*/
+    -moz-column-count: 2; /*для мозилы*/
+    -webkit-column-count: 2; /*для webkit браузеров*/
+    column-gap: 40px; /*отступ между колонками*/
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+   /*column-rule: 1px solid #000; /*если требуется по дизайну, разделяем колонки линией
+    -moz-column-rule: 1px solid #000;
+    -webkit-column-rule: 1px solid #000;*/
+}
+
+.main .howitworks{
+    padding:20px;
+    text-align: center;
+    font-size: 36px;
+    background: $color_main_1;
+    color: $color_text_btn_white;
+
+   
+}
+
+.main .blocks{
+    display: inline-block;
+
+
+}
+
+.main .blocks span{
+    color: $color_text_grey;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main .blocks .orange{
+    background-color: $color_orange;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+
+.main .ordering{
+    color: $color_text_grey;
+    text-align: inherit;
+}
+.main .ordering h2{
+    color: $color_blue;
+    text-align: center;
+}
+
+
+.main .btn-read_more {
+    background-color: $color_main_2;
+    color: $color_text_btn_white;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 12px 18px;
+  }
+  
+  .main .btn-read_more:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+  }
+  
+  .test {
+    text-align: center;
+  }
+
+

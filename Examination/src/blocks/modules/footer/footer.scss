@@ -1,0 +1,47 @@
+.footer{
+    background: $color_main_2;
+}
+.footer .blockgrey{
+    background: $color_block_grey;
+    margin:10px;
+    padding:10px;
+    
+}
+
+.footer .contactphone{
+    margin:px;
+    color: $color_text_btn_white;
+    display: inline-block;
+    padding-left: 15px ;
+}
+
+.footer .text{
+   
+    border: 2px solid $color_text_btn_white;
+    border-color: $color_text_btn_white;
+    color: $color_text_btn_white;
+    display: inline-block;
+    font-family: Font_Regular;
+    font-size: 14px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+   
+    
+}
+.footer .joinus{
+    display: inline-block;
+     padding:20px; 
+}
+.footer .social{
+    display: inline-block;
+    margin:20px;
+}
+
+.footer .footergrey{
+    background: $color_text_grey;
+    color: $color_text_btn_white;
+}
+
+.footer .grey_text h4{
+    color: $color_text_btn_white;
+}

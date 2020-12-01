@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Font_Bold;
+    font-size: 32px;
+    color: $color_text_btn_white;
+}
+
+h2 {
+    font-family: Font_Bold;
+    font-size: 28px;
+    color: $color_text_btn_white;
+    
+}
+
+h3 {
+    font-family: Font_Medium;
+    font-size: 22px;
+    color: $color_blue;
+}
+
+h4 {
+    font-family: Font_Medium;
+    font-size: 18px;
+    color: $color_blue;
+}
+
+p.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+

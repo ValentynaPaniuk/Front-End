@@ -1,0 +1,245 @@
+.header .bg_main_2 {
+    background-color: $color_main_2;
+    /*background-image: url("../img/bg_wide.png");*/
+}
+
+
+
+.header span
+ {
+    color: $color_text_btn_white;
+    font-family: Regular;
+    font-size: 16px;
+    padding: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+    //margin-right: 5px;
+   
+}
+
+
+
+.header a {
+    color: $color_blue;
+    font-family: Regular;
+    font-size: 20px;
+    padding: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+   
+}
+
+
+
+//Біла вертикальна полоска
+/*.header .login::after {
+    content: "";
+    width: 3px;
+    height: 17px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+}
+*/
+
+.header .navbar {
+    background-color: $color_text_btn_white;
+}
+
+
+.header .navigation {
+    display: inline-block;
+    width: 100%;
+}
+
+.header .navbar ul {
+    padding-left: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.header .navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header .navbar ul li a {
+    padding: 5px 3px;
+    text-transform: uppercase;
+}
+
+//Біла вертикаль між пунктами меню
+/*
+.header .navbar ul li::after {
+    content: "";
+    border-right: 3px solid white;
+    border-radius: 3px;
+}
+*/
+/*.header .navbar ul li:last-child::after {
+    content: "";
+    display: none;
+}
+*/
+
+.header .navbar ul li a:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+}
+
+.header .navbar ul li:hover::after {
+    content: "";
+    border-right: 3px solid transparent;
+}
+
+.header_top {
+    @media screen and (max-width: 1199px) {
+        .tablet {
+            text-align: center;
+        }
+    }
+
+}
+
+  .header .navbar ul li:last-child::after {
+    content: "";
+    display: none;
+  }
+  
+  .header .navbar ul li a:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+  }
+
+
+  
+  .header .navbar ul li:hover::after {
+    content: "";
+    border-right: 3px solid transparent;
+  }
+  
+  .header .main_bg {
+    background: $color_main_1;
+    display: inline-block;
+    text-align: center;
+
+  }
+  
+  .header .main_bg h1,
+  h3 {
+    text-transform: uppercase;
+
+    color:$color_text_btn_white;
+   
+  }
+
+  .header .main_bg .Width_ a{
+      width: 200px;
+  }
+
+ /* .header .main_bg .taill::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_bg_btn_hover;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 33px;
+    right: 10px;
+  }
+  */
+
+  // Синя кнопка
+  .header .btn_blue{
+    margin: 10px;
+    background-color: $color_text_btn_colorized;
+    color: $color_text_btn_white;
+    display: inline-block;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 16px;
+  }
+  
+  .header .main_bg h1 {
+    text-transform: uppercase;
+    color: $color_text_btn_white;
+    display: inline-block;
+  }
+  
+  .header .main_bg a {
+    color: var(--color_main_1);
+    border: 1px solid $color_main_1;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .header .essay_service
+  { padding: 0px 120px;
+    text-align: left
+    ;}
+
+
+  .header .btn-order{
+    text-align: right;
+  }
+
+
+  .header .btn-order_now {
+    background-color: $color_text_btn_main;
+    color: $color_text_btn_white !important;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 12px 28.5%;
+  }
+
+  .main .btn-order_now::before {
+    content: "";
+    display: inline-block;
+    border-top: 15px solid $color_text_btn_main;
+    border-right: 20px solid transparent;
+    position: relative;
+    top: 30px;
+    right: 99px;
+  }
+
+
+  .header .bg_main_3 {
+   background-color: $color_main_2;
+   display: inline-block;
+
+   text-align: center;
+  
+  }
+  
+  .header .btn_discount
+  { border: 2px solid $color_text_btn_white;
+    border-color: $color_text_btn_white;
+    color: $color_text_btn_white !important;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Font_Regular;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px 10px;
+   
+  }
+
+.header .joinus{
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.header .social{
+  display: inline-block;
+  margin-top:15px;
+  
+}
+  
+/******End header*******/
