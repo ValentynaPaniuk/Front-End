@@ -1,6 +1,6 @@
 .header .bg_main_2 {
     background-color: $color_main_2;
-    /*background-image: url("../img/bg_wide.png");*/
+  
 }
 
 
@@ -13,7 +13,7 @@
     padding: 20px 0;
     display: inline-block;
     text-decoration: none;
-    //margin-right: 5px;
+ 
    
 }
 
@@ -29,68 +29,22 @@
    
 }
 
-
-
-//Біла вертикальна полоска
-/*.header .login::after {
-    content: "";
-    width: 3px;
-    height: 17px;
-    display: inline-block;
-    background-color: #fff;
-    border-radius: 2px;
-}
-*/
-
-.header .navbar {
-    background-color: $color_text_btn_white;
-}
-
-
 .header .navigation {
     display: inline-block;
     width: 100%;
 }
 
-.header .navbar ul {
-    padding-left: 0;
-    display: inline-block;
-    margin: 0;
-}
-
-.header .navbar ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-.header .navbar ul li a {
+.header .navbar a {
     padding: 5px 3px;
     text-transform: uppercase;
 }
 
-//Біла вертикаль між пунктами меню
-/*
-.header .navbar ul li::after {
-    content: "";
-    border-right: 3px solid white;
-    border-radius: 3px;
-}
-*/
-/*.header .navbar ul li:last-child::after {
-    content: "";
-    display: none;
-}
-*/
-
-.header .navbar ul li a:hover {
-    background-color: $color_bg_btn_hover;
-    color: $color_text_btn_colorized;
+.header .navbar a:hover {
+       color: $color_text_btn_main;
+       text-decoration: underline;
 }
 
-.header .navbar ul li:hover::after {
-    content: "";
-    border-right: 3px solid transparent;
-}
+
 
 .header_top {
     @media screen and (max-width: 1199px) {
@@ -101,22 +55,16 @@
 
 }
 
-  .header .navbar ul li:last-child::after {
-    content: "";
-    display: none;
-  }
-  
-  .header .navbar ul li a:hover {
-    background-color: $color_bg_btn_hover;
-    color: $color_text_btn_colorized;
-  }
+.header .boy{
+background-image: url("../../../img/3-layers.png");
+padding-bottom: 100px;
+}
+
+
 
 
   
-  .header .navbar ul li:hover::after {
-    content: "";
-    border-right: 3px solid transparent;
-  }
+
   
   .header .main_bg {
     background: $color_main_1;
@@ -137,16 +85,7 @@
       width: 200px;
   }
 
- /* .header .main_bg .taill::before {
-    content: "";
-    display: inline-block;
-    border-top: 15px solid $color_bg_btn_hover;
-    border-right: 20px solid transparent;
-    position: relative;
-    top: 33px;
-    right: 10px;
-  }
-  */
+
 
   // Синя кнопка
   .header .btn_blue{
@@ -198,6 +137,12 @@
     padding: 12px 28.5%;
   }
 
+  .header .btn-order_now:hover {
+    background-color: green;
+    
+    
+  }
+
   .main .btn-order_now::before {
     content: "";
     display: inline-block;
@@ -239,6 +184,7 @@
 .header .social{
   display: inline-block;
   margin-top:15px;
+ 
   
 }
   
